@@ -12,6 +12,6 @@ class NoticeForm extends Form
             ->add('notice_title', 'text')
             ->add('notice_name', 'textarea')
             ->add('publish', 'checkbox')
-            ->add('submit', 'submit', ['label' => 'Save']);
+            ->add('submit', 'submit', ['attr'=>['class' => 'btn btn-primary']]);
     }
 }
