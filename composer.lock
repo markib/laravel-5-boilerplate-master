@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "12b8a868c263957b7a4b26213b5b0980",
-    "content-hash": "0bcb785b5f6af6149c00323a911f5e4e",
+    "hash": "a90ba493b61b79a16e3df17575cbb896",
+    "content-hash": "89fa45f041e354a8df8292d352116be0",
     "packages": [
         {
             "name": "arcanedev/log-viewer",
@@ -864,6 +864,60 @@
                 "tokenizer"
             ],
             "time": "2015-12-05 17:17:57"
+        },
+        {
+            "name": "kris/laravel-form-builder",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kristijanhusak/laravel-form-builder.git",
+                "reference": "96be0a7978b782bccefe4045ec024dbe883dc91c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kristijanhusak/laravel-form-builder/zipball/96be0a7978b782bccefe4045ec024dbe883dc91c",
+                "reference": "96be0a7978b782bccefe4045ec024dbe883dc91c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "5.*@dev",
+                "illuminate/validation": "5.*@dev",
+                "laravelcollective/html": "5.*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Kris\\LaravelFormBuilder": "src/"
+                },
+                "classmap": [
+                    "tests/FormBuilderTestCase.php"
+                ],
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kristijan Husak",
+                    "email": "husakkristijan@gmail.com"
+                }
+            ],
+            "description": "Laravel form builder - symfony like",
+            "time": "2016-09-08 08:08:57"
         },
         {
             "name": "laracasts/utilities",
@@ -3073,16 +3127,16 @@
         },
         {
             "name": "yajra/laravel-datatables-oracle",
-            "version": "v6.18.1",
+            "version": "v6.18.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yajra/laravel-datatables.git",
-                "reference": "979415e6cb437b89ad5f5242aa4050bb3859c726"
+                "reference": "1b8c50b9e33a738ecc630e2cbf65138a32932ba7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/979415e6cb437b89ad5f5242aa4050bb3859c726",
-                "reference": "979415e6cb437b89ad5f5242aa4050bb3859c726",
+                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/1b8c50b9e33a738ecc630e2cbf65138a32932ba7",
+                "reference": "1b8c50b9e33a738ecc630e2cbf65138a32932ba7",
                 "shasum": ""
             },
             "require": {
@@ -3129,7 +3183,7 @@
                 "laravel4",
                 "laravel5"
             ],
-            "time": "2016-09-05 09:52:31"
+            "time": "2016-09-13 07:59:37"
         }
     ],
     "packages-dev": [
