@@ -26,6 +26,7 @@
         <div class="box-body">
             <div class="table-responsive">
              <input type="button" value="test">
+                <input type="text" name="test">
                {{-- <table id="users-table" class="table table-condensed table-hover">
                     <thead>
                         <tr>
